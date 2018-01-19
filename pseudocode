@@ -1,0 +1,14 @@
+Step 1: Create folder (FriendFinder with appropriate subfolders and files) - done
+Step 2: Use bootstrap to design 2 rudementary pages for the application (home page, survey page) - 
+  2.5: Create a basic 10 question survey that have a quantifiable result between 1-5.  The answers
+       are selected using a dropdown menu.
+Step 3: Set up basic server using npm packages (express, body-parser, and path) - 
+Step 4: Set up routing js files
+  4a: html route - GET route to '/survey', displays survey page; home route - default route to '/home', displays home page
+  4b: api route - GET route with url '/api/friends' - displays JSON of all possible friends; POST route that processes survey results and handles compatibility logic
+Step 5: Save data inside of friends.js and convert data into an array of objects.
+  5a: Answers are converted into an array of numbers and compared to the current user's results using the absolute value (i.e. no negative numbers.)  The total differences between the scores are calculated into the Total Difference.
+  5b:  Compate the total differences of the current user and stored users and display the closest match (least amount of difference).
+  5c:  Display the matched users'name and picture as a modal popup.
+Step 6: Create readme and link to profile
+Step 7: Upload to heroku and github
